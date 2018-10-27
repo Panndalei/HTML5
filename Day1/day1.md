@@ -99,3 +99,20 @@ HTML文档由嵌套的HTML元素组成。
 
 ### HTML属性参考手册 ###
 查看完整的HTML属性列表:<a href="http://www.runoob.com/tags/html-reference.html">HTML属性参考手册</a>
+下面列出了适用于大多数HTML元素的属性:
+
+属性|描述
+:--:|:--:
+class|为html元素定义一个或多个类名(classname)(类名从样式文件引入）
+id|定义元素唯一id
+style|规定元素的行内样式（inline style）
+title|描述了元素的额外信息 (作为工具条使用)
+
+更多标准属性说明：<a href="http://www.runoob.com/tags/ref-standardattributes.html">HTML标准属性参考手册</a>
+
+## 笔记 ##
+	属性和属性值，尽量小写，本来这样做也方便些。
+	class 属性可以多用 class=" " （引号里面可以填入多个class属性）
+	id 属性只能单独设置 id=" "（只能填写一个，多个无效）
+
+10/27/2018 11:37:23 PM 
