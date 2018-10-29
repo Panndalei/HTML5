@@ -144,3 +144,45 @@ JavaScript</div>
  
 </body>
 </html>
+
+## HTML表单 ##
+表单是一个包含表单元素的区域。
+表单元素是允许用户在表单中输入内容,比如：文本域(textarea)、下拉列表、单选框(radio-buttons)、复选框(checkboxes)等等。
+表单使用表单标签 &lt;form> 来设置:
+```
+<form>
+.
+input 元素
+.
+</form>
+```
+```
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+</form> 
+```
+<b>type</b>
+<ul>
+<li>text:文本域</li>
+<li>password:密码字段</li>
+<li>radio:单选按钮</li>
+<li>checkbox:复选框</li>
+<li>submit:提交按钮</li>
+</ul>
+```
+<form name="input" action="html_form_action.php" method="get">
+Username: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form>
+```
+
+## HTML框架 ##
+<b>&lt;iframe>:定义一个内联的iframe</b>
+iframe语法:
+```
+<iframe src="URL"></iframe>
+```
+该URL指向不同的网页。
+<iframe src="https://www.baidu.com/" width="800" height="200" frameborder="0">panda</iframe>
+
